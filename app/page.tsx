@@ -223,14 +223,15 @@ export default function HomePage() {
           <h1
             className={`text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight text-[#1D1D1B] ${heroLoaded ? "hero-heading" : "opacity-0"}`}
           >
-            Shall We Make Your Garden Shine?
+            Free Weeds, You Pull 'em!
           </h1>
 
-          <p
-            className={`text-lg md:text-xl lg:text-2xl font-normal mb-8 max-w-3xl mx-auto text-[#1D1D1B]/80 ${heroLoaded ? "hero-subheading" : "opacity-0"}`}
-          >
-            Serving Atlantic Beach & Jacksonville with Professional Landscaping & Garden Care.
-          </p>
+          <div className={`${heroLoaded ? "hero-subheading" : "opacity-0"}`}>
+            <p className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4 text-[#4CAF50]">Got Weeds?</p>
+            <p className="text-lg md:text-xl lg:text-2xl font-normal mb-8 max-w-3xl mx-auto text-[#1D1D1B]/80">
+              Serving Atlantic Beach & Jacksonville with Professional Landscaping & Garden Care.
+            </p>
+          </div>
 
           <Button
             size="lg"
